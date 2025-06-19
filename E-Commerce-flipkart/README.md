@@ -42,48 +42,6 @@ Before you begin, ensure you have met the following requirements:
 - Stripe API key (for payment processing)
 - Cloudinary account and API credentials
 
-## Setup
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/aashish-dhiman/E-Commerce.git
-   cd E-Commerce
-   ```
-
-2. **Setup the Backend:**
-   - Navigate to the backend directory:
-     ```sh
-     cd backend
-     ```
-   - Create a `.env` file and add your environment variables (see the example below).
-   - Install the dependencies:
-     ```sh
-     npm install
-     ```
-   - Start the backend server:
-     ```sh
-     npm run dev
-     ```
-
-3. **Setup the Frontend:**
-   - Navigate to the frontend directory:
-     ```sh
-     cd ../client
-     ```
-   - Create a `.env` file and add your environment variables (see the example below).
-   - Install the dependencies:
-     ```sh
-     npm install
-     ```
-   - Start the frontend development server:
-     ```sh
-     npm run dev
-     ```
-
-4. **Access the Application:**
-   - Visit `http://localhost:5173` in your browser to access the Flipkart clone.
-   - You can access the admin panel at `http://localhost:5173/dashboard/admin` (login required).
-
 ## Environment Variables
 
 ### Backend (.env)
@@ -106,7 +64,3 @@ VITE_STRIPE_PUBLISH_KEY=YOUR_STRIPE_PUBLISH_KEY
 VITE_STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY
 VITE_SERVER_URL=SERVER_BASE_URL_WITHOUT_TRAILING_SLASH (in case you want deployed server url- https://e-commerce-mgtd.onrender.com without any / at end)
 ```
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
